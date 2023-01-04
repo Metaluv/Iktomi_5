@@ -51,6 +51,7 @@ export default function Home() {
             <img src="/1.png" className={styles.icon} alt="Cardinal Trading Co. Logo"/>
         </a>
         <h3>Iktomi - The Storyteller</h3>
+        <div className={styles.container}>Beta </div>
         <div className={styles.container}>I gather your stories from my interwebs </div>
         <form onSubmit={onSubmit}>
           <input
@@ -75,6 +76,7 @@ export default function Home() {
 
       </main>
       <footer>
+      <div className={styles.container}> Thank you for testing out my app!</div>
         <div className={styles.footer}>
         <a href="https://www.cardinaltrading.co/product/iktomi-costs-services/197" target="_blank">
           <button onClick={handleDonateClick}>Donate</button>
