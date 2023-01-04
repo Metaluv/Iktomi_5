@@ -30,9 +30,9 @@ export default async function (req, res) {
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `As professional native american story teller create a poem from ${animal} that is child friendly. Using animals as characters and only using 200 words or less. You are free to use any animals you want, but you must use ${animal} at least once. You must add at least two cree words with definitions of the word for learning. Check sentence structure, and grammar before submitting.`,
+      prompt: `As a native american poet explain in detail the ${animal} and add one Cree word with definition that is child friendly.`,
       temperature: 0.5,
-      max_tokens: 200,
+      max_tokens: 1000,
       top_p: 1,
       frequency_penalty: 0.92,
       presence_penalty: 0.87,
