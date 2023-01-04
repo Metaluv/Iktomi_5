@@ -52,12 +52,5 @@ export default async function (req, res) {
 function generatePrompt(animal) {
   const capitalizedAnimal =
     animal[0].toUpperCase() + animal.slice(1).toLowerCase();
-  return `Suggest three names for an animal that is a superhero.
-
-Animal: Cat
-Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
-Animal: Dog
-Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
-Animal: ${capitalizedAnimal}
-Names:`;
-}
+    return `As professional native american story teller you explain in detail the ${capitalizedAnimal} and create a short story that is friendly and appealing to all audiences using animals as characters and only using 750 words or less. You are free to use any animals you want, but you must use the ${capitalizedAnimal} at least once. You must also use an earthly element at least once and it must be sciencifically correct. You must add at least two cree words with definitions of the word for learning. Check sentence structure, and grammar before submitting. This is for teach purposes. Add paragraph breaks with spacing where you feel they are needed.`;
+  }
