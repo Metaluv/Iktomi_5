@@ -32,7 +32,7 @@ export default async function (req, res) {
       model: "text-davinci-003",
       prompt: `As professional native american story teller you explain in detail the ${animal} and create a short story that is friendly and appealing to all audiences using animals as characters and only using 750 words or less. You are free to use any animals you want, but you must use the ${animal} at least once. You must add at least two cree words with definitions of the word for learning. Check sentence structure, and grammar before submitting.`,
       temperature: 0.5,
-      max_tokens: 700,
+      max_tokens: 200,
       top_p: 1,
       frequency_penalty: 0.92,
       presence_penalty: 0.87,
