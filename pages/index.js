@@ -50,7 +50,6 @@ export default function Home() {
         <a href="https://www.cardinaltrading.co" target="_blank">
             <img src="/1.png" className={styles.icon} alt="Cardinal Trading Co. Logo"/>
         </a>
-        <img src="/1.png" className={styles.icon} />
         <h3>Iktomi - The Storyteller</h3>
         <form onSubmit={onSubmit}>
           <input
