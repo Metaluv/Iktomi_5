@@ -77,7 +77,7 @@ export default function Home() {
       </main>
       <footer>
         <div className={styles.footer}>
-        <div className={styles.container1}> Thank you for testing out my app. If you like what you see and want to help with the costs you can for Iktomi - Storyteller click the donate button! If you have suggestion of improvement please email at j@cardinaltrading.co</div>
+        <div className={styles.foottext}> Thank you for testing out my app. If you like what you see and want to help with the costs you can for Iktomi - Storyteller click the donate button! If you have suggestion of improvement please email at j@cardinaltrading.co</div>
         <a href="https://www.cardinaltrading.co/product/iktomi-costs-services/197" target="_blank">
           <button onClick={handleDonateClick}>Donate</button>
         </a>
