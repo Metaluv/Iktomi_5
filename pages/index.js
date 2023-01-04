@@ -76,8 +76,8 @@ export default function Home() {
 
       </main>
       <footer>
-      <div className={styles.container}> Thank you for testing out my app!</div>
         <div className={styles.footer}>
+        <div className={styles.container}> Thank you for testing out my app!</div>
         <a href="https://www.cardinaltrading.co/product/iktomi-costs-services/197" target="_blank">
           <button onClick={handleDonateClick}>Donate</button>
         </a>
