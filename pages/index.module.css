@@ -111,21 +111,6 @@
   }
 }
 
-.result {
-  display: inline-block;
-  white-space: pre-wrap;
-  animation: type 3s linear;
-}
-
-@keyframes type {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
 
 .footer {
   background-color: #202123;
