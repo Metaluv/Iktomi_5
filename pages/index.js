@@ -51,6 +51,7 @@ export default function Home() {
             <img src="/1.png" className={styles.icon} alt="Cardinal Trading Co. Logo"/>
         </a>
         <h3>Iktomi - The Storyteller</h3>
+        <div className={styles.container}>I gather your stories from my interwebs </div>
         <form onSubmit={onSubmit}>
           <input
             type="text"
